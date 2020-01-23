@@ -37,3 +37,13 @@ aws s3 cp hello.zip s3://<your_bucket>/<folder>/
 * Handler - hello
 * Memory - 3008MB
 * Timeout - 1 min
+
+Run Test - you should get the following output
+```
+{
+  "request_id": "c18b7e27-41a6-42c2-9043-c34ffea86453",
+  "function_arn": "arn:aws:lambda:us-west-2:9999999999:function:hello-cpp-world",
+  "fexists": "True",
+  "inference_res": "477.941325"
+}
+```
